@@ -6,7 +6,7 @@ import datetime
 
 # Pancerna konfiguracja portów OT (Modbus, Siemens S7, EtherNet/IP)
 porty_krytyczne_plc = (502, 102, 44818)
-czas_teraz = datetime.datetime.now().strftime("%Y-%m-$d %H:%M:%S")
+czas_teraz = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 try:
     with open("logi_plc_051026.txt", "r", encoding="utf-8") as plik_logow:
@@ -26,7 +26,6 @@ try:
                 plik_raportu.write(f"[ALARM OT!] Ingerencja w PLC z IP: {ip} na porcie: {port}\n")
             else:
                 plik_raportu.write(f"[RUCH IT] Połączenie z IP: {ip} na port: {port}\n")
-            # pass
 
     print("Audyt OT zakończony. Wyniki dopisano do raport_soc.txt")
 
