@@ -25,3 +25,41 @@ MONITOROWANIE IP: 172.16.20.99
 
 --- SKAN BRUTE-FORCE: 2026-10-01 12:18:49 ---
 [ALARM BRUTE-FORCE] IP: 192.168.1.10 | Próby: 8 -> BLOKADA!
+
+--- SKAN BRUTE-FORCE: 2026-10-01 13:06:33 ---
+[ALARM BRUTE-FORCE] IP: 192.168.1.10 | Próby: 8 -> BLOKADA!
+
+*** AUDYT INFRASTRUKTURY OT/PLC dnia 05-10-2026: 2026-10-$d 15:19:59 ***
+[ALARM OT!] Ingerencja w PLC z IP: 172.16.20.99 na porcie: 102
+[RUCH IT] Połączenie z IP: 192.168.1.10 na port: 80
+[ALARM OT!] Ingerencja w PLC z IP: 10.0.0.50 na porcie: 44818
+[RUCH IT] Połączenie z IP: 10.0.0.5 na port: 22
+[ALARM OT!] Ingerencja w PLC z IP: 192.168.1.10 na porcie: 502
+
+*** AUDYT INFRASTRUKTURY OT/PLC dnia 05-10-2026: 2026-10-$d 15:23:50 ***
+[ALARM OT!] Ingerencja w PLC z IP: 192.168.1.10 na porcie: 502
+[ALARM OT!] Ingerencja w PLC z IP: 10.0.0.50 na porcie: 44818
+[RUCH IT] Połączenie z IP: 192.168.1.10 na port: 80
+[RUCH IT] Połączenie z IP: 10.0.0.5 na port: 22
+[ALARM OT!] Ingerencja w PLC z IP: 172.16.20.99 na porcie: 102
+
+*** AUDYT INFRASTRUKTURY OT/PLC dnia 05-10-2026: 2026-10-05 16:27:05 ***
+[RUCH IT] Połączenie z IP: 192.168.1.10 na port: 80
+[ALARM OT!] Ingerencja w PLC z IP: 192.168.1.10 na porcie: 502
+[ALARM OT!] Ingerencja w PLC z IP: 10.0.0.50 na porcie: 44818
+[RUCH IT] Połączenie z IP: 10.0.0.5 na port: 22
+[ALARM OT!] Ingerencja w PLC z IP: 172.16.20.99 na porcie: 102
+
+*** AUDYT INFRASTRUKTURY OT/PLC dnia 05-10-2026: 2026-10-05 H:30:22 ***
+[RUCH IT] Połączenie z IP: 192.168.1.10 na port: 80
+[ALARM OT!] Ingerencja w PLC z IP: 10.0.0.50 na porcie: 44818
+[RUCH IT] Połączenie z IP: 10.0.0.5 na port: 22
+[ALARM OT!] Ingerencja w PLC z IP: 172.16.20.99 na porcie: 102
+[ALARM OT!] Ingerencja w PLC z IP: 192.168.1.10 na porcie: 502
+
+*** AUDYT INFRASTRUKTURY OT/PLC dnia 05-10-2026: 2026-10-05 16:32:12 ***
+[ALARM OT!] Ingerencja w PLC z IP: 172.16.20.99 na porcie: 102
+[ALARM OT!] Ingerencja w PLC z IP: 192.168.1.10 na porcie: 502
+[ALARM OT!] Ingerencja w PLC z IP: 10.0.0.50 na porcie: 44818
+[RUCH IT] Połączenie z IP: 192.168.1.10 na port: 80
+[RUCH IT] Połączenie z IP: 10.0.0.5 na port: 22
